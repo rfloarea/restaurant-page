@@ -31,4 +31,5 @@ content.appendChild(tagLine);
 // image
 const heroImg = document.createElement('img');
 heroImg.src = heroImage;
+heroImg.alt = "Woman with long straight brown hair eating a french fry in a restaurant and feeling great about it."
 content.appendChild(heroImg);
