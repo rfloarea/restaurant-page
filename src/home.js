@@ -2,21 +2,6 @@
 import heroImage from './images/woman-eating-fry.jpg';
 
 export function buildHomepage() {
-    // header component: nav container and three buttons/tabs: home, about, menu
-    const nav = document.querySelector('nav');
-
-    const homeBtn = document.createElement('button');
-    homeBtn.textContent = "Home";
-    nav.appendChild(homeBtn);
-
-    const aboutBtn = document.createElement('button');
-    aboutBtn.textContent = "About";
-    nav.appendChild(aboutBtn);
-
-    const menuBtn = document.createElement('button');
-    menuBtn.textContent = "Menu";
-    nav.appendChild(menuBtn);
-
     // content component: title, tagline, image
     const content = document.querySelector('#content');
     // title
