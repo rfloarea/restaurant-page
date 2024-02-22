@@ -1,3 +1,5 @@
+import './style.css';
+
 console.log('it works!!');
 
 // header component: nav container and three buttons/tabs: home, about, menu
