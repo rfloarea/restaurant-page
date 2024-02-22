@@ -1,5 +1,5 @@
 import './style.css';
-import heroImage from './woman-eating-fry.jpg';
+import heroImage from './images/woman-eating-fry.jpg';
 
 console.log('it works!!');
 
