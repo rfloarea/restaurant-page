@@ -1,0 +1,11 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A mock restaurant website to practice and demo using JS and Webpack to dynamically render pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rowen floarea",
+  "license": "ISC"
+}
