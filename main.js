@@ -1,1 +1,1 @@
-console.log("it works!!");
+(()=>{console.log("it works!!");const t=document.querySelector("nav"),e=document.createElement("button");e.textContent="Home",t.appendChild(e);const n=document.createElement("button");n.textContent="About",t.appendChild(n);const o=document.createElement("button");o.textContent="Menu",t.appendChild(o)})();
