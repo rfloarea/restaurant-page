@@ -2,7 +2,7 @@
 import aboutImage from './images/lightbulb.jpg';
 
 export function buildAboutPage() {
-    // content component: title, tagline, image
+    // content component: title, info, image
     const content = document.querySelector('#content');
     // title
     const title = document.createElement('h1');
