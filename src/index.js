@@ -1,6 +1,7 @@
 import './style.css';
 import { buildHomepage } from './home.js';
 import { buildAboutPage } from './about.js';
+import { buildMenuPage } from './menu.js';
 
 
 window.addEventListener('load', buildHomepage);
@@ -23,6 +24,7 @@ aboutBtn.addEventListener('click', buildAboutPage);
 const menuBtn = document.createElement('button');
 menuBtn.textContent = "Menu";
 nav.appendChild(menuBtn);
+menuBtn.addEventListener('click', buildMenuPage);
 
 
 // const container = document.querySelector('#content');
